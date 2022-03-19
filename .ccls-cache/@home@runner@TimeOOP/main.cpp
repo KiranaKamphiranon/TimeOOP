@@ -11,7 +11,7 @@ int main(){
     //t1.display();
     cout<<"What time is it now? ";
     t2.getTime();
-    //t2.display();
+    t2.display();
     t3=t2.subtract(t1); //t3=t2-t1
     cout<<"Time diff is ";
     t3.display();

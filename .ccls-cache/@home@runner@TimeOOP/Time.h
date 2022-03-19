@@ -9,6 +9,9 @@ class Time{
 void Time::getTime(){
   int h1,m1,s1;
   cin>> h1>> m1>> s1;
+  h1<0?h1=0:
+  m1<0?m1=0:
+  s1<0?s1=0:
   this->s=s1%60;
   this->m=(m1+(s1/60))%60;
   this->h=(h1+((m1+(s1/60))/60))%24;
